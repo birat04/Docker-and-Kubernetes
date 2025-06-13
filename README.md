@@ -60,12 +60,19 @@ There are several benefits to using Kubernetes:
 
 Docker and Kubernetes are powerful tools that can help you build, deploy, and manage containerized applications. Docker provides a platform for packaging and running applications, while Kubernetes provides a platform for automating the deployment, scaling, and management of containerized applications. By combining these two tools, you can create a powerful and flexible infrastructure for running your applications.   
 
-## Comandds:-
-docker built -t foldername .
-docker images (list all images)
-docker run foldername
-docker run -it foldername sh
-docker run -p 5173:5173 -v "$(pwd):/app" -v /app/node_modules react-docker
-docker login
-docker tag foldername username/foldername
-docker push username/foldername
+## Commands:-
+- docker built -t foldername .
+
+- docker images (list all images)
+
+- docker run foldername
+
+- docker run -it foldername sh
+
+- docker run -p 5173:5173 -v "$(pwd):/app" -v /app/node_modules react-docker
+
+- docker login
+
+- docker tag foldername username/foldername
+
+- docker push username/foldername
