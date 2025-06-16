@@ -26,9 +26,6 @@ There are several benefits to using Docker:
 - Security: Docker provides a secure environment for running your application, with built-in security features such as container isolation and access control.
 - Reproducibility: Docker makes it easy to reproduce your application's environment and configuration, which can be useful for debugging and testing.
 
-## Kubernetes
-
-Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It was originally developed by Google and is now maintained by the Cloud Native Computing Foundation (CNCF).
 
 ### What is Kubernetes?
 
@@ -42,7 +39,6 @@ Kubernetes uses a master-node architecture. The master node is responsible for m
 
 The master node is responsible for managing the cluster and coordinating the workloads. It is also responsible for managing the containers that are running on the cluster.
 
-The master node is responsible for managing the cluster and coordinating the workloads. It is also responsible for managing the containers that are running on the cluster.
 
 When a container is deployed to the cluster, it is assigned a unique identifier called a pod. A pod is a group of one or more containers that are deployed together and share the same network namespace. This allows the containers to communicate with each other and with the master node.
 
